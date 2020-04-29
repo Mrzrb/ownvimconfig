@@ -12,7 +12,8 @@ source ~/ownvimconfig/vimrc/mapper.vim
 try
 source ~/ownvimconfig/my_configs.vim
 catch
-endtry' > ~/.vimrc
+endtry
+source ~/ownvimconfig/vimrc/basic.vim' > ~/.vimrc
 
 git submodule init
 git submodule update
