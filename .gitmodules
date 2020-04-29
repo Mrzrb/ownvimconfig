@@ -7,3 +7,33 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule "bundle/vim-airline-themes"]
+	path = bundle/vim-airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes.git
+[submodule "bundle/vim-nerdtree-syntax-highlight"]
+	path = bundle/vim-nerdtree-syntax-highlight
+	url = git@github.com:tiagofumo/vim-nerdtree-syntax-highlight.git
+[submodule "bundle/ack.vim"]
+	path = bundle/ack.vim
+	url = git@github.com:mileszs/ack.vim.git
+[submodule "bundle/onedark.vim"]
+	path = bundle/onedark.vim
+	url = git@github.com:joshdick/onedark.vim.git
+[submodule "bundle/asyncrun.vim"]
+	path = bundle/asyncrun.vim
+	url = git@github.com:skywind3000/asyncrun.vim.git
+[submodule "bundle/vim-sync"]
+	path = bundle/vim-sync
+	url = git@github.com:eshion/vim-sync.git
+[submodule "bundle/vim-atom-dark"]
+	path = bundle/vim-atom-dark
+	url = git@github.com:gosukiwi/vim-atom-dark.git
+[submodule "bundle/ayu-theme"]
+	path = bundle/ayu-theme
+	url = git@github.com:ayu-theme/ayu-vim.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git

@@ -2,15 +2,15 @@
 set -e
 mv ~/.vimrc ~/.vimrc_bakk
 
-cd ~/vim_runtime
+cd ~/ownvimconfig
 
-echo 'set runtimepath+=~/vim_runtime
+echo 'set runtimepath+=~/ownvimconfig
 
-source ~/vim_runtime/vimrcs/basic.vim
-source ~/vim_runtime/vimrcs/plugin.vim
-source ~/vim_runtime/vimrcs/mapper.vim
+source ~/ownvimconfig/vimrcs/basic.vim
+source ~/ownvimconfig/vimrcs/plugin.vim
+source ~/ownvimconfig/vimrcs/mapper.vim
 try
-source ~/vim_runtime/my_configs.vim
+source ~/ownvimconfig/my_configs.vim
 catch
 endtry' > ~/.vimrc
 
