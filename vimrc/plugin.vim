@@ -194,3 +194,7 @@ endfunction
 autocmd BufWritePost * :call SyncUploadFile()
 
 
+"""""""""""""""""""""""
+" rainbow
+"""""""""""""""""""""""""
+let g:rainbow_active = 1

@@ -4,6 +4,7 @@ map <leader>o :CocList outline<CR>
 
 
 nmap <leader>g :Ack 
+nmap <leader>g :CocList grep<CR> 
 vnoremap <leader>g :<C-u>call <SID>GrepFromSelected(visualmode())<CR>
 
 function! s:GrepFromSelected(type)
@@ -25,3 +26,5 @@ endfunction
 " Fast saving
 nmap <leader>w :w!<cr>
 map <leader>ss :setlocal spell!<cr>
+
+nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
