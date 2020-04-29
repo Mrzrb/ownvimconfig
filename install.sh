@@ -6,9 +6,9 @@ cd ~/ownvimconfig
 
 echo 'set runtimepath+=~/ownvimconfig
 
-source ~/ownvimconfig/vimrcs/basic.vim
-source ~/ownvimconfig/vimrcs/plugin.vim
-source ~/ownvimconfig/vimrcs/mapper.vim
+source ~/ownvimconfig/vimrc/basic.vim
+source ~/ownvimconfig/vimrc/plugin.vim
+source ~/ownvimconfig/vimrc/mapper.vim
 try
 source ~/ownvimconfig/my_configs.vim
 catch
