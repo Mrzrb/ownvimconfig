@@ -25,4 +25,6 @@ cd ~/ownvimconfig/bundle/coc.nvim
 cd ~/ownvimconfig/bundle/LeaderF
 ./install.sh
 
+curl -o- -L https://yarnpkg.com/install.sh | bash
+
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
