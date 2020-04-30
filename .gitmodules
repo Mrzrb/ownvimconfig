@@ -64,3 +64,6 @@
 [submodule "bundle/vim-qf-preview"]
 	path = bundle/vim-qf-preview
 	url = git@github.com:bfrg/vim-qf-preview.git
+[submodule "bundle/php-getter-setter.vim"]
+	path = bundle/php-getter-setter.vim
+	url = git@github.com:docteurklein/php-getter-setter.vim.git
