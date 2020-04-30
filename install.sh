@@ -27,4 +27,6 @@ cd ~/ownvimconfig/bundle/LeaderF
 
 curl -o- -L https://yarnpkg.com/install.sh | bash
 
+vim +"CocInstall coc-floaterm coc-go coc-phpls" +qa
+
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
