@@ -28,3 +28,9 @@ nmap <leader>w :w!<cr>
 map <leader>ss :setlocal spell!<cr>
 
 nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
+
+nmap <leader>t :FloatermNew 
+nmap <leader>tt :FloatermToggle<CR>
+nmap <leader>th :FloatermHide<CR>
+
+tnoremap <Esc> <C-\><C-n>

@@ -198,3 +198,9 @@ autocmd BufWritePost * :call SyncUploadFile()
 " rainbow
 """""""""""""""""""""""""
 let g:rainbow_active = 1
+
+
+"""""""""""""""""""""""
+" vim-floaterm AND coc-vim-floaterm
+"""""""""""""""""""""""""
+

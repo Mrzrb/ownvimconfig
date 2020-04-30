@@ -108,3 +108,4 @@ if has("autocmd")
 endif
 
 set signcolumn=no
+

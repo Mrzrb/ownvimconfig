@@ -55,3 +55,12 @@
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = git@github.com:preservim/nerdcommenter.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = git@github.com:majutsushi/tagbar.git
+[submodule "bundle/vim-floaterm"]
+	path = bundle/vim-floaterm
+	url = git@github.com:voldikss/vim-floaterm.git
+[submodule "bundle/vim-qf-preview"]
+	path = bundle/vim-qf-preview
+	url = git@github.com:bfrg/vim-qf-preview.git

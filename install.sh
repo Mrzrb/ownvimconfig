@@ -8,6 +8,7 @@ echo 'set runtimepath+=~/ownvimconfig
 
 source ~/ownvimconfig/vimrc/basic.vim
 source ~/ownvimconfig/vimrc/plugin.vim
+source ~/ownvimconfig/vimrc/func.vim
 source ~/ownvimconfig/vimrc/mapper.vim
 try
 source ~/ownvimconfig/my_configs.vim
