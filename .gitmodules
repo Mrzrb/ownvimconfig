@@ -67,3 +67,12 @@
 [submodule "bundle/php-getter-setter.vim"]
 	path = bundle/php-getter-setter.vim
 	url = git@github.com:docteurklein/php-getter-setter.vim.git
+[submodule "bundle/vim-easymotion"]
+	path = bundle/vim-easymotion
+	url = git@github.com:easymotion/vim-easymotion.git
+[submodule "bundle/vim-move"]
+	path = bundle/vim-move
+	url = git@github.com:matze/vim-move.git
+[submodule "bundle/gv.vim"]
+	path = bundle/gv.vim
+	url = git@github.com:junegunn/gv.vim.git
