@@ -76,3 +76,9 @@
 [submodule "bundle/gv.vim"]
 	path = bundle/gv.vim
 	url = git@github.com:junegunn/gv.vim.git
+[submodule "bundle/goyo.vim"]
+	path = bundle/goyo.vim
+	url = https://github.com/junegunn/goyo.vim.git
+[submodule "vim-zenroom2"]
+	path = vim-zenroom2
+	url = https://github.com/amix/vim-zenroom2.git

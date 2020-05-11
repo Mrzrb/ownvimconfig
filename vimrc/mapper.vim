@@ -33,5 +33,6 @@ nmap <leader>t :FloatermNew
 nmap <leader>tt :FloatermToggle<CR>
 nmap <leader>th :FloatermHide<CR>
 nmap <leader><CR> :noh<CR>
+nmap <leader>z :Goyo<CR>
 
 tnoremap <Esc> <C-\><C-n>
