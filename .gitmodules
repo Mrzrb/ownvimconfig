@@ -97,3 +97,6 @@
 [submodule "bundle/colors-xcode"]
 	path = bundle/colors-xcode
 	url = https://github.com/arzg/vim-colors-xcode.git
+[submodule "bundle/colors-jummidark"]
+	path = bundle/colors-jummidark
+	url = https://github.com/jcherven/jummidark.vim.git
