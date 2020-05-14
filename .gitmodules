@@ -82,3 +82,18 @@
 [submodule "vim-zenroom2"]
 	path = vim-zenroom2
 	url = https://github.com/amix/vim-zenroom2.git
+[submodule "bundle/vim-colorscheme-manager"]
+	path = bundle/vim-colorscheme-manager
+	url = https://github.com/Taverius/vim-colorscheme-manager.git
+[submodule "bundle/vim-colorscheme-switcher"]
+	path = bundle/vim-colorscheme-switcher
+	url = https://github.com/xolox/vim-colorscheme-switcher.git
+[submodule "bundle/vim-misc"]
+	path = bundle/vim-misc
+	url = https://github.com/xolox/vim-misc.git
+[submodule "bundle/color-jummidark"]
+	path = bundle/color-jummidark
+	url = https://github.com/jcherven/jummidark.vim.git
+[submodule "bundle/colors-xcode"]
+	path = bundle/colors-xcode
+	url = https://github.com/arzg/vim-colors-xcode.git
