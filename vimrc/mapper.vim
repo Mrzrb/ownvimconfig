@@ -36,3 +36,5 @@ nmap <leader><CR> :noh<CR>
 nmap <leader>z :Goyo<CR>
 
 tnoremap <Esc> <C-\><C-n>
+
+inoremap jj <Esc>
