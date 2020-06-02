@@ -46,9 +46,6 @@
 [submodule "bundle/auto-pairs"]
 	path = bundle/auto-pairs
 	url = git@github.com:jiangmiao/auto-pairs.git
-[submodule "bundle/vim-devicons"]
-	path = bundle/vim-devicons
-	url = git@github.com:ryanoasis/vim-devicons.git
 [submodule "bundle/vim-which-key"]
 	path = bundle/vim-which-key
 	url = git@github.com:liuchengxu/vim-which-key.git
@@ -103,3 +100,9 @@
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
 	url = git@github.com:airblade/vim-gitgutter.git
+[submodule "bundle/color-tender"]
+	path = bundle/color-tender
+	url = git@github.com:jacoborus/tender.vim.git
+[submodule "bundle/colors-github-1"]
+	path = bundle/colors-github-1
+	url = git@github.com:acarapetis/vim-colors-github.git

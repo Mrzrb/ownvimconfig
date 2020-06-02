@@ -29,11 +29,12 @@ map <leader>ss :setlocal spell!<cr>
 
 nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
 
-nmap <leader>t :FloatermNew 
-nmap <leader>tt :FloatermToggle<CR>
-nmap <leader>th :FloatermHide<CR>
 nmap <leader><CR> :noh<CR>
 nmap <leader>z :Goyo<CR>
+
+nmap <leader>t :FloatermToggle<CR>
+inoremap <leader>t :FloatermToggle<CR>
+tnoremap <leader>t <C-\><C-n>: FloatermToggle<CR>
 
 tnoremap <Esc> <C-\><C-n>
 
