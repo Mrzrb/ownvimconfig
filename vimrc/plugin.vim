@@ -151,9 +151,9 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 " => leaderF
 """""""""""""""""""""""""""""""
 
-map <leader>f :LeaderfFile<CR>
-map <leader>F :LeaderfFunction<CR>
-map <leader>m :LeaderfMru<CR>
+map <leader>f :Leaderf file --popup<CR>
+map <leader>F :Leaderf function --popup<CR>
+map <leader>m :Leaderf mru --popup<CR>
 let g:Lf_ShortcutF = '<c-p>'
 let g:Lf_ShortcutB = '<m-n>'
 noremap <c-n> :LeaderfMru<cr>
@@ -202,5 +202,9 @@ let g:rainbow_active = 1
 
 """""""""""""""""""""""
 " vim-floaterm AND coc-vim-floaterm
+"""""""""""""""""""""""""
+
+"""""""""""""""""""""""
+" LeadF
 """""""""""""""""""""""""
 

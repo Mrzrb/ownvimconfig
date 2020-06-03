@@ -1,10 +1,9 @@
-map <leader>m :LeaderfMru<CR>
+map <leader>m :Leaderf mru --popup<CR>
 "map <leader>g :Ack
-map <leader>o :CocList outline<CR>
+map <leader>o :Leaderf bufTag --popup<CR>
 
 
-nmap <leader>g :Ack 
-nmap <leader>g :CocList grep<CR> 
+nmap <leader>g :Leaderf rg --popup<CR> 
 vnoremap <leader>g :<C-u>call <SID>GrepFromSelected(visualmode())<CR>
 
 function! s:GrepFromSelected(type)
