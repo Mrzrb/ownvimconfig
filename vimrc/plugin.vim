@@ -214,3 +214,11 @@ let g:rainbow_active = 1
 " vim-airline
 """""""""""""""""""""""""
 let g:airline_theme='luna'
+
+
+"""""""""""""""""""""""
+" vim-gutter
+"""""""""""""""""""""""""
+"let g:gitgutter_sign_added = ''
+"let g:gitgutter_sign_modified = ''
+"let g:gitgutter_sign_removed = ''
