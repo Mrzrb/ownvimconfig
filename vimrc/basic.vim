@@ -100,7 +100,7 @@ fun! CleanExtraSpaces()
 endfun
 
 if has("autocmd")
-    autocmd BufWritePre *.txt,*.js,*.py,*.wiki,*.sh,*.coffee :call CleanExtraSpaces()
+    autocmd BufWritePre *.txt,*.js,*.py,*.wiki,*.sh,*.coffee,*.php,*.go :call CleanExtraSpaces()
 endif
 
-set signcolumn=no
+highlight clear SignColumn

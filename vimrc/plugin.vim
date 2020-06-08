@@ -208,3 +208,9 @@ let g:rainbow_active = 1
 " LeadF
 """""""""""""""""""""""""
 
+
+
+"""""""""""""""""""""""
+" vim-airline
+"""""""""""""""""""""""""
+let g:airline_theme='luna'
