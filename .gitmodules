@@ -109,3 +109,6 @@
 [submodule "bundle/SingleCompile"]
 	path = bundle/SingleCompile
 	url = git@github.com:vim-scripts/SingleCompile.git
+[submodule "bundle/color-paper"]
+	path = bundle/color-paper
+	url = git@github.com:NLKNguyen/papercolor-theme.git

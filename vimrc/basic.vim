@@ -35,8 +35,10 @@ endif
 try
     syntax on
     set termguicolors     " enable true colors support
-    let ayucolor="mirage"
-    colorscheme ayu
+    "let ayucolor="mirage"
+    "colorscheme ayu
+    set background=light
+    colorscheme PaperColor
 catch
 endtry
 
