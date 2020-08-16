@@ -36,13 +36,9 @@ try
     syntax on
     set termguicolors     " enable true colors support
     "let ayucolor="mirage"
-    "colorscheme ayu
-    set background=light
-    colorscheme PaperColor
+    colorscheme ayu
 catch
 endtry
-
-set background=dark
 
 " Set extra options when running in GUI mode
 if has("gui_running")

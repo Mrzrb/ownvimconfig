@@ -222,3 +222,9 @@ let g:airline_theme='luna'
 "let g:gitgutter_sign_added = ''
 "let g:gitgutter_sign_modified = ''
 "let g:gitgutter_sign_removed = ''
+"
+
+"""""""""""""""""""""""
+" vim-go
+"""""""""""""""""""""""""
+autocmd BufWritePre *.go :GoImports

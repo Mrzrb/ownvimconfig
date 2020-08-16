@@ -112,3 +112,9 @@
 [submodule "bundle/color-paper"]
 	path = bundle/color-paper
 	url = git@github.com:NLKNguyen/papercolor-theme.git
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
+	url = git@github.com:fatih/vim-go.git
+[submodule "bundle/vim-sneak"]
+	path = bundle/vim-sneak
+	url = git@github.com:justinmk/vim-sneak.git
