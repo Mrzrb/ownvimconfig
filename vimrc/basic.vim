@@ -34,9 +34,9 @@ endif
 
 try
     syntax on
-    set termguicolors     " enable true colors support
+    "set termguicolors     " enable true colors support
     "let ayucolor="mirage"
-    colorscheme ayu
+    colorscheme xcodewwdc
 catch
 endtry
 

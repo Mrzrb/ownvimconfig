@@ -118,3 +118,9 @@
 [submodule "bundle/vim-sneak"]
 	path = bundle/vim-sneak
 	url = git@github.com:justinmk/vim-sneak.git
+[submodule "bundle/vim-devicons"]
+	path = bundle/vim-devicons
+	url = git@github.com:ryanoasis/vim-devicons.git
+[submodule "bundle/vscode-theme"]
+	path = bundle/vscode-theme
+	url = git@github.com:dunstontc/vim-vscode-theme.git

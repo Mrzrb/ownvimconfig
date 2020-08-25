@@ -151,9 +151,9 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 " => leaderF
 """""""""""""""""""""""""""""""
 
-map <leader>f :Leaderf file --popup<CR>
-map <leader>F :Leaderf function --popup<CR>
-map <leader>m :Leaderf mru --popup<CR>
+map <leader>f :Leaderf file<CR>
+map <leader>F :Leaderf function<CR>
+map <leader>m :Leaderf mru<CR>
 let g:Lf_ShortcutF = '<c-p>'
 let g:Lf_ShortcutB = '<m-n>'
 noremap <c-n> :LeaderfMru<cr>
@@ -228,3 +228,13 @@ let g:airline_theme='luna'
 " vim-go
 """""""""""""""""""""""""
 autocmd BufWritePre *.go :GoImports
+
+"""""""""""""""""""""""
+" vim-devicons
+"""""""""""""""""""""""""
+let g:rainbow_conf = {
+  \    'separately': {
+  \       'nerdtree': 0
+  \    }
+  \}
+
