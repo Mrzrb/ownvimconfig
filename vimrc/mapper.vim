@@ -50,3 +50,4 @@ tnoremap <leader>]t <C-\><C-n>: FloatermNext<CR>
 tnoremap <Esc> <C-\><C-n>
 
 inoremap jj <Esc>
+vnoremap <leader>c :w !pbcopy<CR><CR> 
