@@ -84,7 +84,7 @@
 	url = https://github.com/Taverius/vim-colorscheme-manager.git
 [submodule "bundle/vim-colorscheme-switcher"]
 	path = bundle/vim-colorscheme-switcher
-	url = https://github.com/xolox/vim-colorscheme-switcher.git
+	url = git@github.com:xolox/vim-colorscheme-switcher.git
 [submodule "bundle/vim-misc"]
 	path = bundle/vim-misc
 	url = https://github.com/xolox/vim-misc.git
@@ -124,3 +124,18 @@
 [submodule "bundle/vscode-theme"]
 	path = bundle/vscode-theme
 	url = git@github.com:dunstontc/vim-vscode-theme.git
+[submodule "bundle/vim-vdebug"]
+	path = bundle/vim-vdebug
+	url = git@github.com:vim-vdebug/vdebug.git
+[submodule "bundle/leetcode"]
+	path = bundle/leetcode
+	url = git@github.com:ianding1/leetcode.vim.git
+[submodule "bundle/color-collection"]
+	path = bundle/color-collection
+	url = git@github.com:rafi/awesome-vim-colorschemes.git
+[submodule "bundle/dracula"]
+	path = bundle/dracula
+	url = git@github.com:dracula/vim.git
+[submodule "bundle/vim-cheat.sh"]
+	path = bundle/vim-cheat.sh
+	url = git@github.com:dbeniamine/cheat.sh-vim.git

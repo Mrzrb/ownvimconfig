@@ -2,8 +2,7 @@ execute pathogen#infect()
 
 "NERDTree
 nmap <leader>nf :NERDTreeFind<cr>
-nmap <leader>nn :NERDTreeToggle<cr>
-
+nmap <leader>nn :NERDTreeToggle<cr> 
 """""""""""""""""""""""""""""""
 """      Coc.nvim
 """""""""""""""""""""""""""""""
@@ -238,3 +237,34 @@ let g:rainbow_conf = {
   \    }
   \}
 
+
+
+"""""""""""""""""""""""
+" vdebug
+"""""""""""""""""""""""""
+let g:vdebug_options = {}
+"let g:vdebug_options.path_maps = {"/data0/www/htdocs/".substitute(getcwd(), '^.*/', '', ''): getcwd()}
+let g:vdebug_options.path_maps = {"/data0/www/htdocs/": "/Users/zhangruobin/work/"}
+let g:vdebug_options['ide_key'] = "zrb-vim"
+let g:vdebug_options['port'] = 9101
+let g:vdebug_options['break_on_open'] = 0
+let g:vdebug_options["timeout"]=50
+
+
+
+"let g:vdebug_options = {'ide_key': 'zrb-vim', 'port': '9001'}
+"let g:vdebug_options = {'break_on_open': 0}
+"let g:vdebug_options = {'server': '127.0.0.1'}
+"let g:vdebug_options = {'port': '9001'}
+
+"let g:vdebug_keymap = {
+"\    "run" : "<Leader>/",
+"\    "run_to_cursor" : "<Down>",
+"\    "step_over" : "<Up>",
+"\    "step_into" : "<Left>",
+"\    "step_out" : "<Right>",
+"\    "close" : "q",
+"\    "detach" : "x",
+"\    "set_breakpoint" : "<Leader>p",
+"\    "eval_visual" : "<Leader>e"
+"\}
