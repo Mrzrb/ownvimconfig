@@ -3,7 +3,7 @@ map <leader>m :Leaderf mru <CR>
 map <leader>o :Leaderf bufTag <CR>
 
 
-nmap <leader>g :Leaderf rg <CR> 
+nmap <leader>g :Leaderf rg <CR>
 vnoremap <leader>g :<C-u>call <SID>GrepFromSelected(visualmode())<CR>
 
 function! s:GrepFromSelected(type)
